@@ -1,0 +1,29 @@
+Practical: 12.1.2
+Code:
+
+// NESTED IF-STATEMENT
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	int a = 13, b = 10, c = 2;
+
+	/* if this condition satisfies then
+	 control goes to next if condition*/
+	if (a > b) {
+
+		/*if this condition also turns out to be
+		 true then the statements under
+		 this block will get executed*/
+
+		if (a > c) {
+			cout << " a is the largest of all " << endl;
+		}
+	}
+	return 0;
+}
+
+ 
+
